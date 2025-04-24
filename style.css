@@ -40,7 +40,6 @@
     align-items: center; 
     justify-content: center; 
     display: flex;
-    
 }
 
 .begin>ul {
@@ -73,7 +72,7 @@
 body {
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
-}
+} 
 
 button {
     background-color: #3882f6; 
