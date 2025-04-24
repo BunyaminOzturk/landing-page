@@ -4,7 +4,6 @@
     align-items: center;
     padding: 3px;
     background-color: #1f2937;
-
 }
 
 .logo {
@@ -34,14 +33,14 @@
 }
 
 .begin {
-    width: 300px; 
+    width: 500px; 
     background-color: #1f2937;
     padding: 0;
     display: flex;
     align-items: center; 
     justify-content: center; 
     display: flex;
-    gap: 20px;
+    
 }
 
 .begin>ul {
@@ -61,7 +60,7 @@
 }
 
 .main-text {
-    font-size: 24px;
+    font-size: 34px;
     color:#f9faf8;
     font-weight: 900;
 }
@@ -86,6 +85,7 @@ button {
     cursor: pointer; 
     transition: background-color 0.3s ease; 
     width: 100px;
+    border: white;
 }
 
 button:hover {
@@ -175,4 +175,60 @@ img {
     font-style: normal;
     font-size: 30px;
     font-weight: bold;
+}
+
+.content-4 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    border-radius: 7px;
+    display: flex;
+    padding: 20px;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-4>ul{
+    list-style: none;
+}
+
+.blue-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 20%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.blue-button>button{
+    border: white solid 2px;
+    margin: 0 auto
+    
+}
+
+.title-text {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(231, 223, 223);
+}
+
+#footer-text {
+    color: rgb(231, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
